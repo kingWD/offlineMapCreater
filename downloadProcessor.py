@@ -58,3 +58,4 @@ class DownloadProcessor(object):
             except ValueError, err:
                 logging.error('The port nust be a number between 0 and 65535.We use 80 instead.')
                 self.port = 80
+
